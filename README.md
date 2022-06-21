@@ -9,7 +9,7 @@ This is a modified version of the [original livox_mapping](https://github.com/Li
 * Solved the display issue due to caused by different rviz versions. Now, even using Noetic, you can watch the mapping process without changing the settings in rviz.
 * Added a new script to convert the format of the final-built 3D map from RGB8 to XYZI.
 ## How to use
-
+``git clone ``
 
 
 The rosbag is available [here](https://drive.google.com/file/d/1ZmS2tajLKvlstaqA8L-T6nzKj0bfL30n/view?usp=sharing).
