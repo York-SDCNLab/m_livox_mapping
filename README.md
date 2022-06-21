@@ -8,6 +8,9 @@ This is a modified version of the [original livox_mapping](https://github.com/Li
 * Solved the conflicts between the old-version OpenCV and the OpenCV inside Noetic. (Cmake error will occur otherwise)
 * Solved the display issue due to caused by different rviz versions. Now, even using Noetic, you can watch the mapping process without changing the settings in rviz.
 * Added a new script to convert the format of the final-built 3D map from RGB8 to XYZI.
+
+![sucai_02_](https://user-images.githubusercontent.com/58899542/174899500-b25e7412-fe16-42eb-b0ec-b994bd12066f.gif)
+
 ## How to use
 ``git clone https://github.com/York-SDCNLab/Modified_livox_mapping.git`` <br>
 ``cd modified``<br>
@@ -23,7 +26,7 @@ Open a new terminal and type in <br>
 <br>
 Now you can observe the mapping in rviz directly. The PCD file (RGB8) of the 3D map will be saved in the folder named 'original_livox_mapping_result' under your home path. You may change the name of the folder in the launch file.
 
-The rosbag corrsponding to the figure above is available [here](https://drive.google.com/file/d/1ZmS2tajLKvlstaqA8L-T6nzKj0bfL30n/view?usp=sharing).
+The rosbag corrsponding to the video above is available [here](https://drive.google.com/file/d/1ZmS2tajLKvlstaqA8L-T6nzKj0bfL30n/view?usp=sharing).
 
 ## Convert RGB8 to XYZI
 The point type outputted by the livox mapping is XYZRGB. The folder named RGB2XYZI contains a script to convert the format. <br>
