@@ -21,7 +21,7 @@ If you see a CMake error at this step complaining about livox_ros_driverConfig.c
 Open a new terminal and type in <br>
 ``rosbag play yourbagname``<br>
 <br>
-Now you can obseve the mapping in rviz directly. The PCD file of the 3D map will be saved in the folder named 'original_livox_mapping_result' under your home path. You may change the name of the folder in the launch file.
+Now you can observe the mapping in rviz directly. The PCD file of the 3D map will be saved in the folder named 'original_livox_mapping_result' under your home path. You may change the name of the folder in the launch file.
 
 
 The rosbag corrsponding to the figure above is available [here](https://drive.google.com/file/d/1ZmS2tajLKvlstaqA8L-T6nzKj0bfL30n/view?usp=sharing).
