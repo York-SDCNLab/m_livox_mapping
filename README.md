@@ -21,7 +21,20 @@ If you see a CMake error at this step complaining about livox_ros_driverConfig.c
 Open a new terminal and type in <br>
 ``rosbag play yourbagname``<br>
 <br>
-Now you can observe the mapping in rviz directly. The PCD file of the 3D map will be saved in the folder named 'original_livox_mapping_result' under your home path. You may change the name of the folder in the launch file.
-
+Now you can observe the mapping in rviz directly. The PCD file (RGB8) of the 3D map will be saved in the folder named 'original_livox_mapping_result' under your home path. You may change the name of the folder in the launch file.
 
 The rosbag corrsponding to the figure above is available [here](https://drive.google.com/file/d/1ZmS2tajLKvlstaqA8L-T6nzKj0bfL30n/view?usp=sharing).
+
+## Convert RGB8 to XYZI
+The point type outputted by the livox mapping is XYZRGB. The folder named RGB2XYZI contains a script to convert the format. <br>
+``cd RGB2XYZI``<br>
+``mkdir build``<br>
+``cd build``<br>
+``cmake ..``<br>
+``make``<br>
+``mkdir input``<br>
+Copy the 3D map named all_points from 'original_livox_mapping_result' into the input folder. Then in the build folder, do<br>
+``./RGB2XYZI``<br>
+In the input folder, a pcd file named out.pcd will be generated.
+
+
