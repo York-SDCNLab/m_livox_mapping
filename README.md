@@ -6,7 +6,7 @@ This is a modified version of the [original livox_mapping](https://github.com/Li
 * Save the intensity values for the points of the final 3D map.
 ## Modifications
 * Solved the conflicts between the old-version OpenCV and the OpenCV inside Noetic. (Cmake error will occur otherwise)
-* Solved the display issue due to caused by different rviz versions. Now, even using Noetic, you can watch the mapping process without changing the settings in rviz.
+* Solved the display issue caused by different rviz versions. Now, even using Noetic, you can watch the mapping process without changing the settings in rviz.
 * Added a new script to convert the format of the final-built 3D map from RGB8 to XYZI.
 
 ![sucai_02_](https://user-images.githubusercontent.com/58899542/174899500-b25e7412-fe16-42eb-b0ec-b994bd12066f.gif)
