@@ -2,7 +2,7 @@
 This is a modified version of the [original livox_mapping](https://github.com/Livox-SDK/livox_mapping).
 ## Purposes of this Projecrt
 * Make the original project able to run with ROS Noetic in Ubuntu 20.04.
-* Collect a point cloud that contains multiple fiducial markers from a SLAM framework.
+* Collect a multiview point cloud that contains multiple fiducial markers for our new work [Fiducial Marker Detection in Multi-Viewpoint Point Cloud.](https://github.com/York-SDCNLab/Marker-Detection-General)
 * Save the intensity values for the points of the final 3D map.
 ## Modifications
 * Solved the conflicts between the old-version OpenCV and the OpenCV inside Noetic. (Cmake error will occur otherwise)
