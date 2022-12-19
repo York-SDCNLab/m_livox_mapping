@@ -9,7 +9,13 @@ This is a modified version of the [original livox_mapping](https://github.com/Li
 * Solved the display issue caused by different rviz versions. Now, even using Noetic, you can watch the mapping process without changing the settings in rviz.
 * Added a new script to convert the format of the final-built 3D map from RGB8 to XYZI.
 
-![sucai_02_](https://user-images.githubusercontent.com/58899542/174899500-b25e7412-fe16-42eb-b0ec-b994bd12066f.gif)
+
+https://user-images.githubusercontent.com/58899542/208440477-df587434-0f70-4057-8b01-6590ec021342.mp4
+
+
+
+![fig2](https://user-images.githubusercontent.com/58899542/208440543-49ee768c-8bf8-44c0-8b96-3de179c0e3a0.png)
+
 
 ## How to use
 ``git clone https://github.com/York-SDCNLab/Modified_livox_mapping.git`` <br>
